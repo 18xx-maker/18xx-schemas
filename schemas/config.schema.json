@@ -251,9 +251,10 @@
     },
     "maps": {
       "type": "object",
-      "required": ["players", "roundTracker"],
+      "required": ["market", "players", "roundTracker"],
       "additionalProperties": false,
       "properties": {
+        "market": { "type": "boolean" },
         "players": { "type": "boolean" },
         "roundTracker": { "type": "boolean" }
       }
